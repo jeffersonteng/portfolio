@@ -4,7 +4,6 @@
     line-height: 3.5em;
     color: white;
     font-family: sans-serif;
-
 }
 
 .brand {
@@ -20,4 +19,13 @@
 .nav-btn {
     display: inline-block;
     width: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    border-top: 3px solid #eee;
 }

@@ -1,0 +1,23 @@
+.nav {
+    background-color:#ff9900;
+    height: 3.5em;
+    line-height: 3.5em;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.brand {
+    position: relative;
+    top: 0.45em;
+    left: 0.45em;
+}
+
+.nav-btn-container {
+    float: right;
+}
+
+.nav-btn {
+    display: inline-block;
+    width: 50px;
+}

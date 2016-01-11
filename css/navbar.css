@@ -30,3 +30,18 @@
     line-height: 90px;
     border-top: 3px solid #eee;
 }
+
+.github-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin-icon {
+    width: 80px;
+    height: auto;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+}

@@ -19,6 +19,7 @@
 .nav-btn {
     display: inline-block;
     width: 50px;
+    margin: 0 10px;
 }
 
 .footer {

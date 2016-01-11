@@ -1,15 +1,24 @@
-.nav {
-    background-color:#ff9900;
+.header {
+    position: fixed;
+    top: 0;
     height: 3.5em;
+    width: 100%;
     line-height: 3.5em;
-    color: white;
-    font-family: sans-serif;
+    font-family: 'Muli', sans-serif;
+    border-bottom: 3px solid #eee;
+    background-color: white;
 }
 
 .brand {
     position: relative;
     top: 0.45em;
     left: 0.45em;
+}
+
+.name {
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: 'Muli', sans-serif;
 }
 
 .nav-btn-container {
@@ -29,6 +38,7 @@
     width: 100%;
     line-height: 90px;
     border-top: 3px solid #eee;
+    background-color: white;
 }
 
 .github-icon {

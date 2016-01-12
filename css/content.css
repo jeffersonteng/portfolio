@@ -24,16 +24,16 @@
 
 .profile-pic {
     width: auto;
-    height: 300px;
+    height: 450px;
 }
 
 .text-content {
     position: absolute;
     left: 50%;
-    width: 400px;
-    margin-left: -200px;
-    height: 300px;
-    line-height: 300px;
+    width: 600px;
+    margin-left: -300px;
+    height: 450px;
+    line-height: 450px;
     font-family: 'Muli', sans-serif;
     color: white;
     font-size: 20px;

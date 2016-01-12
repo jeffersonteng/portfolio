@@ -5,7 +5,6 @@
 
 #profile {
     width: 75%;
-    overflow: scroll;
 }
 
 #projects {
@@ -22,9 +21,14 @@
     text-decoration: none;
 }
 
-.profile-pic {
+.image-container {
     width: auto;
     height: 450px;
+}
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .text-content {

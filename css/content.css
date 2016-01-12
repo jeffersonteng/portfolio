@@ -7,9 +7,11 @@
     width: 75%;
 }
 
-#projects {
-    margin-top: 110px;
+.section-header {
+    font-size: 36px;
+    font-family: 'Muli', sans-serif;
 }
+
 .center {
     text-align: center;
     left: 0;
@@ -26,16 +28,38 @@
     height: 450px;
 }
 
+#profile-container {
+    height: 500px;
+}
+
 .image {
     max-height: 100%;
     max-width: 100%;
 }
 
-.text-content {
+.profile-pic-text-content {
     position: absolute;
     left: 50%;
-    width: 600px;
-    margin-left: -300px;
+    width: 666px;
+    margin-left: -333px;
+    height: 500px;
+    line-height: 500px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+a:hover .profile-pic-text-content {
+    display: inline;
+}
+
+.work-text-content {
+    position: absolute;
+    left: 50%;
+    width: 804px;
+    margin-left: -402px;
     height: 450px;
     line-height: 450px;
     font-family: 'Muli', sans-serif;
@@ -45,6 +69,6 @@
     display: none;
 }
 
-a:hover .text-content {
+a:hover .work-text-content {
     display: inline;
 }

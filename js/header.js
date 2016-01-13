@@ -8,12 +8,12 @@
 (function() {
     document.write('\
         <header class="header">\
-        <span class="name">Jefferson Teng</span>\
-        <span class="nav-btn-container">\
-        <span class="nav-btn">Hello</span>\
-        <span class="nav-btn">Hello</span>\
-        <span class="nav-btn">Hello</span>\
-        </span>\
+            <span class="name">Jefferson Teng</span>\
+                <span class="nav-btn-container">\
+                <a href="index.html"><span class="nav-btn">Home</span></a>\
+                <a href="work.html"><span class="nav-btn">Work</span></a>\
+                <a href="about.html"><span class="nav-btn">About</span></a>\
+            </span>\
         </header>\
     ');
 })();

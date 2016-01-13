@@ -9,6 +9,7 @@
     background-color: white;
     z-index: 999;
     opacity: 0.95;
+    text-align: center;
 }
 
 .brand {
@@ -18,13 +19,14 @@
 }
 
 .name {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 25px;
     font-family: 'Muli', sans-serif;
 }
 
 .nav-btn-container {
-    float: right;
+    position: absolute;
+    right: 40px;
 }
 
 .nav-btn {

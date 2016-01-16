@@ -1,0 +1,78 @@
+.timeline div {
+    -webkit-transition: all 1.5s ease-in;
+    -ms-transition: all 1.5s ease-in;
+    -o-transition: all 1.5s ease-in;
+    transition: all 1.5s ease-in;
+
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+    border-radius: 0.35em;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+
+    width: 20rem;
+    height: 10rem;
+    line-height: 10rem;
+    margin-bottom: 5rem;
+    padding: 0 20rem;
+    display: inline-block;
+    z-index: 999;
+    background: white;
+}
+
+.timeline {
+    text-align: center;
+}
+
+/*.timeline::before {*/
+    /*left: 50%;*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*height: 200%;*/
+    /*width: 4px;*/
+    /*background: gray;*/
+    /*z-index: -1;*/
+/*}*/
+
+.hide {
+    visibility: visible;
+    opacity: 0.01;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1.0;
+}
+
+.loaded div {
+    visibility: hidden;
+}
+
+
+.timeline {
+    width: 100%;
+    height: 100%;
+}
+
+.timeline::before {
+    position: fixed;
+    content: '';
+    left: 50%;
+    width: 4px;
+    height: 150vh;
+    background: gray;
+    z-index: -1;
+    margin-top: -7vh;
+}
+
+.inner {
+    visibility: hidden;
+    background: blue;
+    position: relative;
+    width: 80%;
+    height: 40px;
+}

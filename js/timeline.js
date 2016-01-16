@@ -19,11 +19,4 @@ var timelineHandler = function() {
     });
 };
 
-var timelineInit = function() {
-    //$('.timeline').addClass("loaded");
-
-    //$(window).scroll();
-};
-
-$(document).ready(timelineInit);
 $(window).scroll(timelineHandler);

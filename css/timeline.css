@@ -28,16 +28,6 @@
     text-align: center;
 }
 
-/*.timeline::before {*/
-    /*left: 50%;*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*height: 200%;*/
-    /*width: 4px;*/
-    /*background: gray;*/
-    /*z-index: -1;*/
-/*}*/
-
 .hide {
     visibility: visible;
     opacity: 0.01;
@@ -47,11 +37,6 @@
     visibility: visible;
     opacity: 1.0;
 }
-
-.loaded div {
-    visibility: hidden;
-}
-
 
 .timeline {
     width: 100%;
@@ -67,12 +52,4 @@
     background: gray;
     z-index: -1;
     margin-top: -7vh;
-}
-
-.inner {
-    visibility: hidden;
-    background: blue;
-    position: relative;
-    width: 80%;
-    height: 40px;
 }

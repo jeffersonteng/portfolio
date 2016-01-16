@@ -29,7 +29,7 @@
 }
 
 #profile-container {
-    height: 50rem;
+    height: 35rem;
 }
 
 .image {
@@ -40,10 +40,10 @@
 .profile-pic-text-content {
     position: absolute;
     left: 50%;
-    width: 66.6rem;
-    margin-left: -33.3rem;
-    height: 50rem;
-    line-height: 50rem;
+    width: 46.5rem;
+    margin-left: -23.25rem;
+    height: 35rem;
+    line-height: 35rem;
     font-family: 'Muli', sans-serif;
     color: white;
     font-size: 2rem;

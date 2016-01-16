@@ -14,7 +14,7 @@
     -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 
-    width: 20rem;
+    width: 30rem;
     height: 10rem;
     line-height: 10rem;
     margin-bottom: 5rem;
@@ -22,6 +22,7 @@
     display: inline-block;
     z-index: 999;
     background: white;
+    font-family: 'Muli', sans-serif;
 }
 
 .timeline {
@@ -40,7 +41,7 @@
 
 .timeline {
     width: 100%;
-    height: 100%;
+    height: 150%;
 }
 
 .timeline::before {

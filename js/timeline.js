@@ -7,7 +7,7 @@ var timelineHandler = function() {
             elementOffset = $(this).offset().top,
             distance      = (elementOffset - scrollTop),
             windowHeight  = $(window).height(),
-            breakPoint    = windowHeight*0.6;
+            breakPoint    = windowHeight*0.65;
 
         if(distance > breakPoint) {
             $(this).addClass("hide");
